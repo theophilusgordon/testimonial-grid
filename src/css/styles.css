@@ -8,7 +8,11 @@
 }
 
 body {
-  background-color: #ecf2f8;
+  background-color: hsl(210deg, 46%, 95%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
 }
 
 .testimonial {
@@ -42,18 +46,18 @@ body {
   border-radius: 50%;
 }
 .testimonial-section:nth-of-type(1) {
-  background-color: #7541c8;
+  background-color: hsl(263deg, 55%, 52%);
   color: #ffffff;
   background-image: url("https://raw.githubusercontent.com/easaber/testimonialGrid/6575b3d555217b79ba98f20fe88c891e3e492f64/images/bg-pattern-quotation.svg");
   background-repeat: no-repeat;
   background-position: top 0 right 100px;
 }
 .testimonial-section:nth-of-type(2) {
-  background-color: #48556a;
+  background-color: hsl(217deg, 19%, 35%);
   color: #ffffff;
 }
 .testimonial-section:nth-of-type(4) {
-  background-color: #19212e;
+  background-color: hsl(219deg, 29%, 14%);
   color: #ffffff;
 }
 
