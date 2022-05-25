@@ -94,6 +94,9 @@ body {
 }
 
 @media(min-width: 780px) {
+  body {
+    height: max-content;
+  }
   .testimonial {
     grid-template-columns: repeat(4, 1fr);
 
